@@ -1,0 +1,9 @@
+C:\Users\Ash-B\source\repos\Dlive-NET\Dlive-NET\bin\Debug\netcoreapp2.1\Dlive-NET.deps.json
+C:\Users\Ash-B\source\repos\Dlive-NET\Dlive-NET\bin\Debug\netcoreapp2.1\Dlive-NET.dll
+C:\Users\Ash-B\source\repos\Dlive-NET\Dlive-NET\obj\Debug\netcoreapp2.1\Dlive-NET.csprojAssemblyReference.cache
+C:\Users\Ash-B\source\repos\Dlive-NET\Dlive-NET\obj\Debug\netcoreapp2.1\Dlive-NET.csproj.CoreCompileInputs.cache
+C:\Users\Ash-B\source\repos\Dlive-NET\Dlive-NET\obj\Debug\netcoreapp2.1\Dlive-NET.AssemblyInfoInputs.cache
+C:\Users\Ash-B\source\repos\Dlive-NET\Dlive-NET\obj\Debug\netcoreapp2.1\Dlive-NET.AssemblyInfo.cs
+C:\Users\Ash-B\source\repos\Dlive-NET\Dlive-NET\bin\Debug\netcoreapp2.1\Dlive-NET.pdb
+C:\Users\Ash-B\source\repos\Dlive-NET\Dlive-NET\obj\Debug\netcoreapp2.1\Dlive-NET.dll
+C:\Users\Ash-B\source\repos\Dlive-NET\Dlive-NET\obj\Debug\netcoreapp2.1\Dlive-NET.pdb

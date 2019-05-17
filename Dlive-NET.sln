@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dlive-NET", "Dlive-NET\Dlive-NET.csproj", "{BC31C6BB-6A56-4548-A0B8-70EC686F504D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLiveNET.ConsoleTest", "DLiveNET.ConsoleTest\DLiveNET.ConsoleTest.csproj", "{FDAF1FA5-679C-45BD-B76F-C57F64F2388F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC31C6BB-6A56-4548-A0B8-70EC686F504D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC31C6BB-6A56-4548-A0B8-70EC686F504D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC31C6BB-6A56-4548-A0B8-70EC686F504D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC31C6BB-6A56-4548-A0B8-70EC686F504D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDAF1FA5-679C-45BD-B76F-C57F64F2388F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDAF1FA5-679C-45BD-B76F-C57F64F2388F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDAF1FA5-679C-45BD-B76F-C57F64F2388F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDAF1FA5-679C-45BD-B76F-C57F64F2388F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {469DD362-755B-4EA3-BA86-9D5C125029A6}
+	EndGlobalSection
+EndGlobal

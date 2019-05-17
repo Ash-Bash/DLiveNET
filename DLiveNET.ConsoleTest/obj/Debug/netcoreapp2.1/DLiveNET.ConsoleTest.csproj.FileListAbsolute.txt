@@ -1,0 +1,14 @@
+C:\Users\Ash-B\source\repos\Dlive-NET\DLiveNET.ConsoleTest\obj\Debug\netcoreapp2.1\DLiveNET.ConsoleTest.csprojAssemblyReference.cache
+C:\Users\Ash-B\source\repos\Dlive-NET\DLiveNET.ConsoleTest\obj\Debug\netcoreapp2.1\DLiveNET.ConsoleTest.csproj.CoreCompileInputs.cache
+C:\Users\Ash-B\source\repos\Dlive-NET\DLiveNET.ConsoleTest\obj\Debug\netcoreapp2.1\DLiveNET.ConsoleTest.AssemblyInfoInputs.cache
+C:\Users\Ash-B\source\repos\Dlive-NET\DLiveNET.ConsoleTest\obj\Debug\netcoreapp2.1\DLiveNET.ConsoleTest.AssemblyInfo.cs
+C:\Users\Ash-B\source\repos\Dlive-NET\DLiveNET.ConsoleTest\bin\Debug\netcoreapp2.1\DLiveNET.ConsoleTest.deps.json
+C:\Users\Ash-B\source\repos\Dlive-NET\DLiveNET.ConsoleTest\bin\Debug\netcoreapp2.1\DLiveNET.ConsoleTest.runtimeconfig.json
+C:\Users\Ash-B\source\repos\Dlive-NET\DLiveNET.ConsoleTest\bin\Debug\netcoreapp2.1\DLiveNET.ConsoleTest.runtimeconfig.dev.json
+C:\Users\Ash-B\source\repos\Dlive-NET\DLiveNET.ConsoleTest\bin\Debug\netcoreapp2.1\DLiveNET.ConsoleTest.dll
+C:\Users\Ash-B\source\repos\Dlive-NET\DLiveNET.ConsoleTest\bin\Debug\netcoreapp2.1\DLiveNET.ConsoleTest.pdb
+C:\Users\Ash-B\source\repos\Dlive-NET\DLiveNET.ConsoleTest\bin\Debug\netcoreapp2.1\Dlive-NET.dll
+C:\Users\Ash-B\source\repos\Dlive-NET\DLiveNET.ConsoleTest\bin\Debug\netcoreapp2.1\Dlive-NET.pdb
+C:\Users\Ash-B\source\repos\Dlive-NET\DLiveNET.ConsoleTest\obj\Debug\netcoreapp2.1\DLiveNET.ConsoleTest.csproj.CopyComplete
+C:\Users\Ash-B\source\repos\Dlive-NET\DLiveNET.ConsoleTest\obj\Debug\netcoreapp2.1\DLiveNET.ConsoleTest.dll
+C:\Users\Ash-B\source\repos\Dlive-NET\DLiveNET.ConsoleTest\obj\Debug\netcoreapp2.1\DLiveNET.ConsoleTest.pdb
