@@ -2,6 +2,7 @@
 using DLiveNET.Classes.Objects;
 using System;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace DLiveNET
 {
@@ -11,20 +12,20 @@ namespace DLiveNET
         private string authKey { get; set; }
         private string blockchainPrivKey { get; set; }
         private Permissions permissionObj { get; set; }
-        private SendRequestToDlive sendReq { get; set; }
 
         public DLive(string authKey, string blockchainPrivKey = null) {
             this.authKey = authKey;
             this.blockchainPrivKey = blockchainPrivKey;
             permissionObj = new Permissions(null, this.authKey, this.blockchainPrivKey);
-            sendReq = new SendRequestToDlive("Oblivifrek", permissionObj);
         }
 
         public void listenToChat(string username, Action callback) {
 
         }
 
-        public String TestConnection() {
+        public string TestConnection()
+        {
+            SendRequestToDlive sendReq = new SendRequestToDlive("Oblivifrek", permissionObj);
             return sendReq.GetResponse();
         }
     }

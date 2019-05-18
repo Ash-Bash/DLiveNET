@@ -22,14 +22,18 @@ namespace DLiveNET.Classes.Helpers
             serverInfo = new ServerInfo("https://graphigo.prd.dlive.tv", 443, "/", "POST", header);
         }
 
-        public String GetResponse() {
+        public string GetResponse() {
             HttpWebRequest req = (HttpWebRequest)WebRequest.Create(serverInfo.getHostname() + ":" + serverInfo.getPort());
-            //req.Credentials =   serverInfo.getHeader().authKey;
-            req.PreAuthenticate = true;
-            req.Headers.Add("authorization", serverInfo.getHeader().authKey);
+            var auth = serverInfo.getHeader().authKey;
+            //req.Credentials = new NetworkCredential(username, serverInfo.getHeader().authKey);
+            req.Headers.Add(HttpRequestHeader.Authorization, $"Bearer {auth}");
             req.Headers.Add("gacid", serverInfo.getHeader().gacid);
             req.Headers.Add("fingerprint", serverInfo.getHeader().fingerprint);
             req.Headers.Add("Origin", serverInfo.getHeader().origin);
+            req.PreAuthenticate = true;
+            req.KeepAlive = true;
+            req.Timeout = 10000;
+            req.ServicePoint.Expect100Continue = false;
             req.Referer = serverInfo.getHeader().referer;
             req.ContentType = serverInfo.getHeader().contentType;
             req.Method = serverInfo.getMethod();
@@ -37,7 +41,7 @@ namespace DLiveNET.Classes.Helpers
             req.UserAgent = serverInfo.getHeader().userAgent;
             try
             {
-                HttpWebResponse res = (HttpWebResponse)req.GetResponse();
+                HttpWebResponse res = req.GetResponse() as HttpWebResponse;
 
                 Stream resStream = res.GetResponseStream();
                 if (resStream == null) return null;
