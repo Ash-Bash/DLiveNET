@@ -23,10 +23,10 @@ namespace DLiveNET
 
         }
 
-        public string TestConnection()
+        public void TestConnection()
         {
-            SendRequestToDlive sendReq = new SendRequestToDlive("Oblivifrek", permissionObj);
-            return sendReq.GetResponse();
+            SendRequestToDlive sendReq = new SendRequestToDlive("DLive", permissionObj);
+            sendReq.GetResponse();
         }
     }
 }

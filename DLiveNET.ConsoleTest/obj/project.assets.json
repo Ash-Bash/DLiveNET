@@ -4434,40 +4434,41 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ash-B\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/ashleychapman/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ash-B\\source\\repos\\Dlive-NET\\DLiveNET.ConsoleTest\\DLiveNET.ConsoleTest.csproj",
+      "projectUniqueName": "/Users/ashleychapman/Projects/DLiveNET/DLiveNET.ConsoleTest/DLiveNET.ConsoleTest.csproj",
       "projectName": "DLiveNET.ConsoleTest",
-      "projectPath": "C:\\Users\\Ash-B\\source\\repos\\Dlive-NET\\DLiveNET.ConsoleTest\\DLiveNET.ConsoleTest.csproj",
-      "packagesPath": "C:\\Users\\Ash-B\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ash-B\\source\\repos\\Dlive-NET\\DLiveNET.ConsoleTest\\obj\\",
+      "projectPath": "/Users/ashleychapman/Projects/DLiveNET/DLiveNET.ConsoleTest/DLiveNET.ConsoleTest.csproj",
+      "packagesPath": "/Users/ashleychapman/.nuget/packages/",
+      "outputPath": "/Users/ashleychapman/Projects/DLiveNET/DLiveNET.ConsoleTest/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ash-B\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/ashleychapman/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Ash-B\\source\\repos\\Dlive-NET\\Dlive-NET\\Dlive-NET.csproj": {
-              "projectPath": "C:\\Users\\Ash-B\\source\\repos\\Dlive-NET\\Dlive-NET\\Dlive-NET.csproj"
+            "/Users/ashleychapman/Projects/DLiveNET/Dlive-NET/Dlive-NET.csproj": {
+              "projectPath": "/Users/ashleychapman/Projects/DLiveNET/Dlive-NET/Dlive-NET.csproj"
             }
           }
         }
@@ -4482,6 +4483,7 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
